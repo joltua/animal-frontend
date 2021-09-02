@@ -1,0 +1,11 @@
+.wrapper {
+  padding-top: 5%;
+  width: 960px;
+  height: 100vh;
+  margin: 0 auto;
+
+  .btn-row {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

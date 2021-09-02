@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AnimalService } from './services/animal.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'animal-frontend';
+
+  constructor(public animalService: AnimalService) {
+  }
+
+  onAddAnimal() {
+
+  }
 }
